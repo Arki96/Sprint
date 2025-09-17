@@ -4,7 +4,8 @@ public class condicionales {
         int edad = 18;
         String marca= "Peugeout";
         float potencia=12.4f;
-        
+        System.out.println(edad
+        );
         if (edad >= 18 && potencia < 140){
             System.out.println("Es mayor de edad, puede conducir un " +marca);
         }
